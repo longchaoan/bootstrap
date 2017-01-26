@@ -1,0 +1,28 @@
+@charset "utf-8";
+/*初始化样式*/
+body,ul,ol,p,h1,h2,h3,h4,h5{margin: 0;padding: 0;}
+img{border: none;vertical-align: top;}
+ul,ol{list-style: none;}
+input,button{border: 0;}
+a{color: #666;text-decoration: none;}
+a:hover{text-decoration: none;color: #666;}
+h1,h2,h3,h4,h5{font-weight: normal;}
+i,em{font-style: normal;}
+body{font-family: "微软雅黑",arial;font-size: 12px;color: #666;background: #fff;}
+
+/*bootstrap字体图标*/
+@font-face {
+	font-family: Glyphicons Halflings;
+  	src: url('../lib/bootstrap/fonts/glyphicons-halflings-regular.eot') format('embedded-opentype'), 
+  	url('../lib/bootstrap/fonts/glyphicons-halflings-regular.svg') format('svg'), 
+  	url('../lib/bootstrap/fonts/glyphicons-halflings-regular.ttf') format('truetype'), 
+  	url('../lib/bootstrap/fonts/glyphicons-halflings-regular.woff') format('woff');
+}
+
+
+/*清除bootstrap中的container的padding值*/
+/*.container{
+	width: 1200px;
+	padding: 0;
+}
+*/
